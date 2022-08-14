@@ -1,0 +1,210 @@
+/** Responsive CSS 
+**/
+@media only screen and (max-width: 649px) {
+
+
+  
+  .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: white;
+    background-color:transparent;
+    
+  }
+
+  .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+  color: white;
+}
+  .dropdown-menu {
+    background: #222;
+    border-radius: 0;
+    border: 0;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .dropdown a:hover {
+    background: transparent;
+    
+  }
+
+  .dropdown-menu li a {
+    padding: 10px;
+    color: white;
+  
+  }
+  
+  .dropdown-menu li a:hover {
+    background: transparent;
+    color: white;
+  
+  
+  }
+
+  .logo{
+    width: 90px;
+
+  }
+
+  
+  .color {
+    color: #222;
+  }
+ 
+
+
+  .line {
+    display: block;
+    justify-content: center;
+  }
+
+  .container > .navbar-header {
+    padding: 20px;
+  }
+    .navbar-default {
+        border-color: transparent;
+         background-color:transparent;
+         
+        min-height: 60px;
+    }
+
+
+  
+    .navbar-header > .navbar-brand {
+        color: rgba(255,255,255,0.7);
+        padding: 19px;
+    }
+  
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #f4f4f4;
+    }
+  
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+    color: white;
+      
+        padding: 20px;
+        letter-spacing: 1.1px;
+        text-shadow: 1px 1px 1px rgba(60,60,60,0.7);
+    }
+  
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #fefefe;
+    }
+  
+    .navbar-default.affix {
+        border-color: rgba(34,34,34,.05);
+        background-color: #222;
+    }
+  
+    .navbar-default.affix .navbar-header .navbar-brand {
+        font-size: 15px;
+        color: #00ffffeb;
+        padding: 20px;
+        letter-spacing: 1px;
+    }
+  
+    .navbar-default.affix .navbar-header .navbar-brand:hover,
+    .navbar-default.affix .navbar-header .navbar-brand:focus {
+        color: #8b27b0;
+    }
+  
+    .navbar-default.affix .nav > li>a,
+    .navbar-default.affix .nav>li>a:focus {
+        color: #ddd;
+        text-shadow: 1px 1px 1px rgba(30,30,30,0.7);
+    }
+  
+    .navbar-default.affix .nav > li>a:hover,
+    .navbar-default.affix .nav>li>a:focus:hover {
+        color: #00ffffeb;
+    }
+  
+  
+
+    .welcome-section {
+    
+      padding-top: 15rem;
+      padding-bottom: 10rem;
+    }
+    
+
+
+
+    
+  
+    
+      @keyframes text-fade-in {
+        from {
+          right: 0;
+        }
+        to {
+          opacity: 1;
+          right: 50%;
+        }
+
+      }
+
+      .modal-content {
+        margin-top:10rem;
+        background-color: #1d1d1d;
+    }
+    
+
+    /**Grid
+    */
+    .gallery-wrap {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 80vh;
+    }
+
+    .heart {
+      width: 100px;
+      height: 100px;
+      float: right;
+      left: 50%;
+      top: 50%;
+      transform: translate(-125%,-50%);
+      background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+      background-position: 0 0;
+      cursor: pointer;
+      animation: fave-heart 1s steps(28);
+    }
+    .heart:hover {
+      background-position: -2800px 0;
+      transition: background 1s steps(28);
+    }
+    @keyframes fave-heart {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: -2800px 0;
+      }
+    }
+  
+  
+  ul.fotos {
+    margin-top: 0px;
+    margin-left: 0px; 
+    position: relative;
+    width: 100%;
+    display: table;
+  }
+  ul.fotos li{
+    list-style-position: inside;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin-top: 0px;
+  }
+
+  }
+  
+

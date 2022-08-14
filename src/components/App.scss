@@ -1,0 +1,54 @@
+  /**
+  Grid
+  **/
+
+  
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+  @media only screen and (max-width: 649px) {
+    flex-direction: column;
+  }
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+  
+  &:hover{
+    flex: 12;
+  }
+}
+
+.item-1 { 
+  background-image: url('../components/images/rituals/Image1.jpg');
+}
+
+.item-2 { 
+  background-image: url('../components/images/rituals/Image2.jpg');
+
+}
+
+.item-3 { 
+
+  background-image: url('../components/images/rituals/Image3.JPG');
+
+}
+
+.item-4 { 
+  background-image: url('../components/images/rituals/image4.jpg');
+}
+
+
+.item-5 { 
+  background-image: url('../components/images/rituals/image5.jpg');
+}
+
+
+/**Login **/
